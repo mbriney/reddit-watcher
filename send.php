@@ -10,13 +10,13 @@ try {
 	$message = array(
 		'html' => $html,
 		'text' => 'HTML only',
-		'subject' => 'This week on the Interwebs',
+		'subject' => 'GW Pulse - '.date("M j, Y"),
 		'from_email' => 'newmedia@mountvernon.org',
 		'from_name' => 'Robot Tobias',
 		'to' => array(
 			array(
-				'email' => 'mbriney@mountvernon.org',
-				'name' => 'Matt Briney',
+				'email' => 'newmedia@mountvernon.org',
+				'name' => 'New Media Team',
 				'type' => 'to'
 			)
 		),
